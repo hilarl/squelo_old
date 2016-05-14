@@ -1,0 +1,453 @@
+@media (max-width: 979px) {
+  .extra-row {
+    padding-left: 15px;
+    margin-right: 0;
+    padding-right: 0; }
+
+  .updates {
+    padding: 15px; }
+
+  .connections-inner {
+    padding: 15px; }
+
+  #connections-main {
+    padding-right: 0; }
+
+  .mid-list {
+    margin-bottom: 0;
+    padding-bottom: 0; }
+
+  #profile-overview .updates li p {
+    clear: left !important;
+    padding-top: 0.7em !important; } }
+@media (min-width: 979px) {
+  #faculty-list {
+    padding-left: 0; } }
+body {
+  font-family: 'Open Sans';
+  background: #f5f8fa;
+  color: #444444; }
+
+aside h3 {
+  margin: 0.5em 0;
+  font-size: 1.5em; }
+
+a:focus {
+  outline: none;
+  outline-offset: none; }
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: none;
+  outline-offset: 0; }
+
+.container {
+  position: relative; }
+
+strong {
+  font-weight: 600; }
+
+#main-header {
+  /* background-image: linear-gradient(#FFF,#F5F8FA); */
+  background: white;
+  padding: 0.5em 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #eaeff6; }
+
+#main-container {
+  padding-top: 47px; }
+
+#main-banner {
+  background-image: url("http://turnkeycoachingsolutions.com/wp-content/uploads/professional-coaching3.jpg");
+  background-size: 100%;
+  height: 360px; }
+
+.sm-p {
+  font-size: 0.85em; }
+
+.carousel .item {
+  left: 0 !important;
+  -webkit-transition: opacity .4s;
+  /*adjust timing here */
+  -moz-transition: opacity .4s;
+  -o-transition: opacity .4s;
+  transition: opacity .4s; }
+
+.dull {
+  color: #ccc; }
+
+.red {
+  color: #e74c3c; }
+
+.orange {
+  color: #f39c12; }
+
+.yellow {
+  color: #f1c40f; }
+
+.green {
+  color: #2ecc71 !important; }
+
+.blue {
+  background: #2e82fa; }
+
+.carousel-control {
+  background-image: none !important;
+  /* remove background gradients on controls */ }
+
+/* Fade controls with items */
+.next.left,
+.prev.right {
+  opacity: 1;
+  z-index: 1; }
+
+.active.left,
+.active.right {
+  opacity: 0;
+  z-index: 2; }
+
+.t-block {
+  border-radius: 3px;
+  background: white;
+  border: 1px;
+  border-color: #E5E6E9 #DFE0E4 #D0D1D5;
+  border-bottom: 2px solid #eaeff6; }
+
+.left {
+  text-align: left; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+a {
+  color: #2e82fa; }
+
+a:hover {
+  color: #2e82fa; }
+
+.btn {
+  letter-spacing: 0.5px;
+  border-radius: 3px; }
+
+.btn-default {
+  color: #66757f;
+  background-image: linear-gradient(white, #f5f8fa);
+  border: 2px solid #f9f9f9; }
+
+.btn-default:hover {
+  background-image: linear-gradient(white, #e1e8ed);
+  border: 2px solid #E1E8ED; }
+
+.view-more {
+  color: #2E82FA;
+  border: none;
+  font-size: 1.5em;
+  margin-top: 1.8em;
+  font-weight: 100; }
+
+.view-more:hover {
+  border: none; }
+
+.btn-primary {
+  background: #2E82FA;
+  border: 2px solid #6498FF; }
+
+.btn-primary:hover {
+  background: #5691F3;
+  border: 2px solid #5691F3; }
+
+#main-nav {
+  background: white;
+  border-bottom: 2px solid #eaeff6;
+  margin-bottom: 1em;
+  text-align: center; }
+  #main-nav a {
+    font-size: 1.3em;
+    color: #666;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 1em 10px;
+    display: inline-block; }
+  #main-nav a:hover {
+    background: #f9f9f9; }
+
+#main-search {
+  border: 2px solid #F2F4F7;
+  box-shadow: none;
+  padding: 0.4em;
+  padding-bottom: 0.4em;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: 100; }
+
+#sign-in {
+  padding: 5px 15px; }
+
+#logo {
+  font-size: 1.6em; }
+
+.blue-block {
+  background: #2E82FA;
+  padding: 6em;
+  color: white; }
+
+.white-page {
+  background: white;
+  text-align: center; }
+  .white-page h1 {
+    font-weight: 300;
+    line-height: 46px;
+    margin-bottom: 5px; }
+  .white-page h5 {
+    color: #808080;
+    font-weight: 300;
+    line-height: 23px;
+    margin-bottom: 7px; }
+
+.mini-profile-container {
+  text-align: center; }
+  .mini-profile-container section {
+    padding: 1em 0;
+    padding-bottom: 2.2em; }
+  .mini-profile-container .box {
+    text-align: center; }
+    .mini-profile-container .box .inner-box {
+      display: block;
+      margin: 1em;
+      padding: 1em;
+      border: 2px solid #f5f5f5;
+      background: #fdfdfd;
+      border-radius: 5px; }
+    .mini-profile-container .box .inner-box:hover {
+      text-decoration: none;
+      background: #fafafa; }
+    .mini-profile-container .box h3 {
+      font-size: 1.3em;
+      color: #666;
+      margin-top: 0.5em;
+      margin-bottom: 0; }
+    .mini-profile-container .box h5 {
+      font-weight: 100;
+      font-size: 1em;
+      margin-top: 0; }
+    .mini-profile-container .box h4 {
+      margin-bottom: 0;
+      color: #666;
+      font-size: 0.9em;
+      font-weight: 500; }
+    .mini-profile-container .box p {
+      color: #999;
+      font-weight: 100; }
+    .mini-profile-container .box img {
+      border: 2px solid #f5f5f5;
+      padding: 0.1em;
+      border-radius: 5px;
+      width: 70px;
+      height: 70px; }
+  .mini-profile-container .view-more-container {
+    margin: 0 1em; }
+
+#login {
+  text-align: center;
+  margin-top: 1.5em; }
+  #login h3 {
+    font-weight: 200; }
+  #login form {
+    padding-top: 2em; }
+    #login form input {
+      border: 2px solid #eaeff6;
+      padding: 0.5em;
+      margin-bottom: 1.2em;
+      border-radius: 3px; }
+    #login form label {
+      font-weight: 100;
+      color: #666666;
+      display: block;
+      text-align: left;
+      clear: left; }
+    #login form #login-btn {
+      text-align: left;
+      padding: 6px 17px;
+      float: left; }
+  #login #social-login-btns {
+    padding-top: 3em; }
+    #login #social-login-btns .btn-lg {
+      font-weight: 100; }
+  #login #new-account-signup {
+    padding: 3em 0; }
+
+#profile-header {
+  position: relative;
+  color: white;
+  background: #2e82fa;
+  height: 360px;
+  padding-top: 1.5em;
+  text-align: center; }
+  #profile-header img {
+    width: 175px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px; }
+  #profile-header h2 {
+    font-weight: 200; }
+  #profile-header h4 {
+    font-weight: 200;
+    font-size: 1em; }
+  #profile-header h5 {
+    font-weight: 400;
+    display: block; }
+  #profile-header #edit-menu {
+    position: absolute;
+    right: 25px;
+    top: 0; }
+    #profile-header #edit-menu a {
+      color: white;
+      font-size: 2em;
+      margin-left: 0.5em; }
+
+#profile-header.profile-header-color.harvard {
+  background: #DC143C; }
+
+#profile-sub-nav.profile-header-color.harvard {
+  background: #DC143C; }
+
+#profile-sub-nav {
+  padding: 1em 0; }
+  #profile-sub-nav #count-bar a {
+    color: white; }
+
+.profile-view .t-block {
+  padding: 0.5em 1em; }
+.profile-view .add-btn {
+  margin-bottom: 1em; }
+
+#profile-overview #about h4 {
+  font-weight: 100;
+  font-size: 1em;
+  line-height: 20px; }
+#profile-overview #about strong {
+  font-weight: 400; }
+#profile-overview #about h3 {
+  margin: 0.5em 0; }
+#profile-overview .updates li {
+  padding-bottom: 0;
+  padding-top: 1em;
+  margin-bottom: 1em;
+  display: block; }
+  #profile-overview .updates li img {
+    width: 30px;
+    border-radius: 3px; }
+  #profile-overview .updates li .username {
+    font-size: 1em;
+    float: left;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 0.25em; }
+  #profile-overview .updates li .post-detail {
+    margin: 0 0.25em;
+    line-height: 30px;
+    font-size: 0.8em;
+    font-weight: 100;
+    display: block;
+    float: left; }
+  #profile-overview .updates li p {
+    padding: 0;
+    margin-top: 0.5em; }
+
+#profile-feed-list li img {
+  float: left; }
+
+.experience-block {
+  padding-bottom: 0.7em !important; }
+  .experience-block .position, .experience-block .company, .experience-block .duration, .experience-block location {
+    clear: left; }
+  .experience-block a {
+    line-height: 10px !important; }
+  .experience-block .position, .experience-block .company {
+    margin-bottom: 1em; }
+  .experience-block .location {
+    margin-bottom: 0;
+    margin-top: 0; }
+  .experience-block h4 {
+    margin-bottom: 0; }
+  .experience-block h4:first-child {
+    margin-top: 0.5em;
+    margin-bottom: 0.7em; }
+  .experience-block .company img {
+    width: auto !important;
+    height: 35px !important;
+    background: none !important;
+    border-radius: 5px !important;
+    float: left;
+    margin-right: 0.5em; }
+
+.profile-subpage-nav a {
+  padding: 0.5em;
+  width: 100%;
+  display: block;
+  /* border-bottom: 1px solid $grey-blue; */ }
+.profile-subpage-nav a:last-child {
+  border: none; }
+.profile-subpage-nav a:hover {
+  background: #f5f8fa;
+  border-radius: 5px;
+  text-decoration: none; }
+
+.skill-block {
+  padding-top: 7px !important;
+  padding-bottom: 6px !important; }
+  .skill-block .endorse-btn {
+    margin-top: -7px; }
+
+.skill-endorse-count {
+  font-size: 0.7em;
+  margin-left: 0.5em; }
+
+#references .reference-block img {
+  margin-right: 1em !important;
+  float: left !important; }
+#references .reference-block p {
+  margin-top: 0 !important;
+  margin-left: 0.7em !important; }
+
+.mini-profile-container .mini-profile h3 {
+  font-size: 1.2em;
+  clear: left; }
+.mini-profile-container .mini-profile img {
+  clear: both !important;
+  width: 70px !important;
+  height: 70px !important; }
+
+#connections-main .extra-row {
+  padding-right: 15px; }
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); }
+
+.dropdown-menu {
+  text-align: left;
+  border-radius: 3px; }
